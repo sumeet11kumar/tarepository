@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>02/10/2015 16:41:52</publishTime>
+    </File>
+    <File Include="bin/ar/AjaxControlToolkit.resources.dll">
+      <publishTime>02/10/2015 16:41:54</publishTime>
+    </File>
+    <File Include="bin/cs/AjaxControlToolkit.resources.dll">
+      <publishTime>02/10/2015 16:41:54</publishTime>
+    </File>
+    <File Include="bin/de/AjaxControlToolkit.resources.dll">
+      <publishTime>02/10/2015 16:41:54</publishTime>
+    </File>
+    <File Include="bin/es/AjaxControlToolkit.resources.dll">
+      <publishTime>02/10/2015 16:41:54</publishTime>
+    </File>
+    <File Include="bin/fr/AjaxControlToolkit.resources.dll">
+      <publishTime>02/10/2015 16:41:56</publishTime>
+    </File>
+    <File Include="bin/he/AjaxControlToolkit.resources.dll">
+      <publishTime>02/10/2015 16:41:56</publishTime>
+    </File>
+    <File Include="bin/hi/AjaxControlToolkit.resources.dll">
+      <publishTime>02/10/2015 16:41:56</publishTime>
+    </File>
+    <File Include="bin/it/AjaxControlToolkit.resources.dll">
+      <publishTime>02/10/2015 16:41:56</publishTime>
+    </File>
+    <File Include="bin/ja/AjaxControlToolkit.resources.dll">
+      <publishTime>02/10/2015 16:41:56</publishTime>
+    </File>
+    <File Include="bin/ko/AjaxControlToolkit.resources.dll">
+      <publishTime>02/10/2015 16:41:56</publishTime>
+    </File>
+    <File Include="bin/MSCaptcha.dll">
+      <publishTime>10/03/2007 07:33:28</publishTime>
+    </File>
+    <File Include="bin/nl/AjaxControlToolkit.resources.dll">
+      <publishTime>02/10/2015 16:42:08</publishTime>
+    </File>
+    <File Include="bin/pt/AjaxControlToolkit.resources.dll">
+      <publishTime>02/10/2015 16:42:08</publishTime>
+    </File>
+    <File Include="bin/ru/AjaxControlToolkit.resources.dll">
+      <publishTime>02/10/2015 16:42:08</publishTime>
+    </File>
+    <File Include="bin/TAAPP16-12-2019.dll">
+      <publishTime>01/14/2020 11:36:22</publishTime>
+    </File>
+    <File Include="bin/tr-TR/AjaxControlToolkit.resources.dll">
+      <publishTime>02/10/2015 16:42:08</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/AjaxControlToolkit.resources.dll">
+      <publishTime>02/10/2015 16:42:08</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/AjaxControlToolkit.resources.dll">
+      <publishTime>02/10/2015 16:42:08</publishTime>
+    </File>
+    <File Include="TAADM/addModifyAttackDetails.aspx">
+      <publishTime>01/08/2020 15:29:51</publishTime>
+    </File>
+    <File Include="TAADM/addModifyAttackSubDetails.aspx">
+      <publishTime>12/19/2019 12:28:42</publishTime>
+    </File>
+    <File Include="TAADM/AddModifyGroup.aspx">
+      <publishTime>12/30/2019 11:50:28</publishTime>
+    </File>
+    <File Include="TAADM/AddModifyLocation.aspx">
+      <publishTime>12/23/2019 13:17:34</publishTime>
+    </File>
+    <File Include="TAADM/adminDashboard.aspx">
+      <publishTime>01/09/2020 12:56:28</publishTime>
+    </File>
+    <File Include="TAADM/adminWebMaster.Master">
+      <publishTime>01/09/2020 17:30:15</publishTime>
+    </File>
+    <File Include="TAADM/css/bootstrap.min.css">
+      <publishTime>12/16/2019 16:29:52</publishTime>
+    </File>
+    <File Include="TAADM/css/custom.css">
+      <publishTime>01/09/2020 12:57:45</publishTime>
+    </File>
+    <File Include="TAADM/css/simple-line-icons.css">
+      <publishTime>12/16/2019 16:29:52</publishTime>
+    </File>
+    <File Include="TAADM/css/style.css">
+      <publishTime>12/17/2019 11:35:28</publishTime>
+    </File>
+    <File Include="TAADM/css/style.css.map">
+      <publishTime>12/16/2019 16:29:52</publishTime>
+    </File>
+    <File Include="TAADM/css/style.min.css">
+      <publishTime>12/16/2019 16:29:52</publishTime>
+    </File>
+    <File Include="TAADM/css/style.min.css.map">
+      <publishTime>12/16/2019 16:29:52</publishTime>
+    </File>
+    <File Include="TAADM/fonts/Simple-Line-Icons.eot">
+      <publishTime>12/16/2019 16:29:52</publishTime>
+    </File>
+    <File Include="TAADM/fonts/Simple-Line-Icons.ttf">
+      <publishTime>12/16/2019 16:29:52</publishTime>
+    </File>
+    <File Include="TAADM/fonts/Simple-Line-Icons.woff">
+      <publishTime>12/16/2019 16:29:52</publishTime>
+    </File>
+    <File Include="TAADM/fonts/Simple-Line-Icons.woff2">
+      <publishTime>12/16/2019 16:29:52</publishTime>
+    </File>
+    <File Include="TAADM/home.aspx">
+      <publishTime>12/17/2019 10:30:44</publishTime>
+    </File>
+    <File Include="TAADM/img/calender.png">
+      <publishTime>12/17/2019 12:01:54</publishTime>
+    </File>
+    <File Include="TAADM/img/coreui-pro-base-white.svg">
+      <publishTime>12/16/2019 16:29:52</publishTime>
+    </File>
+    <File Include="TAADM/InsertSubDetails.aspx">
+      <publishTime>12/23/2019 10:36:14</publishTime>
+    </File>
+    <File Include="TAADM/js/angular.min.js">
+      <publishTime>12/18/2019 10:38:36</publishTime>
+    </File>
+    <File Include="TAADM/js/bootstrap.min.js">
+      <publishTime>12/18/2019 10:38:40</publishTime>
+    </File>
+    <File Include="TAADM/js/calendar/calendar-blue.css">
+      <publishTime>12/17/2019 12:01:08</publishTime>
+    </File>
+    <File Include="TAADM/js/calendar/calendar-en.min.js">
+      <publishTime>12/17/2019 11:47:08</publishTime>
+    </File>
+    <File Include="TAADM/js/calendar/jquery-1.4.1.js">
+      <publishTime>12/17/2019 11:47:08</publishTime>
+    </File>
+    <File Include="TAADM/js/calendar/jquery-1.4.1.min.js">
+      <publishTime>12/17/2019 11:47:08</publishTime>
+    </File>
+    <File Include="TAADM/js/calendar/jquery.dynDateTime.min.js">
+      <publishTime>12/17/2019 11:47:08</publishTime>
+    </File>
+    <File Include="TAADM/js/coreui.bundle.min.js">
+      <publishTime>12/18/2019 10:38:44</publishTime>
+    </File>
+    <File Include="TAADM/js/coreui.min.js">
+      <publishTime>12/18/2019 10:38:44</publishTime>
+    </File>
+    <File Include="TAADM/js/jquery-1.8.3.min.js">
+      <publishTime>12/18/2019 10:38:46</publishTime>
+    </File>
+    <File Include="TAADM/js/jquery.min.js">
+      <publishTime>12/18/2019 10:38:44</publishTime>
+    </File>
+    <File Include="TAADM/js/pace.min.js">
+      <publishTime>12/18/2019 10:38:48</publishTime>
+    </File>
+    <File Include="TAADM/js/perfect-scrollbar.min.js">
+      <publishTime>12/18/2019 10:38:48</publishTime>
+    </File>
+    <File Include="TAADM/js/popper.min.js">
+      <publishTime>12/18/2019 10:38:48</publishTime>
+    </File>
+    <File Include="TAADM/login.aspx">
+      <publishTime>01/09/2020 17:27:24</publishTime>
+    </File>
+    <File Include="TAADM/logout.aspx">
+      <publishTime>12/17/2019 10:30:46</publishTime>
+    </File>
+    <File Include="TAADM/Report.aspx">
+      <publishTime>12/27/2019 15:10:44</publishTime>
+    </File>
+    <File Include="TAADM/Upload.aspx">
+      <publishTime>12/23/2019 10:36:14</publishTime>
+    </File>
+    <File Include="TAADM/UploadSubDetails.aspx">
+      <publishTime>12/27/2019 10:36:58</publishTime>
+    </File>
+    <File Include="TAADM/vendors/pace-progress/css/pace.css">
+      <publishTime>12/16/2019 16:29:52</publishTime>
+    </File>
+    <File Include="TAADM/vendors/pace-progress/css/pace.css.map">
+      <publishTime>12/16/2019 16:29:52</publishTime>
+    </File>
+    <File Include="TAADM/vendors/pace-progress/css/pace.min.css">
+      <publishTime>12/16/2019 16:29:52</publishTime>
+    </File>
+    <File Include="TAADM/vendors/pace-progress/css/pace.min.css.map">
+      <publishTime>12/16/2019 16:29:52</publishTime>
+    </File>
+    <File Include="TAADM/WebForm1.aspx">
+      <publishTime>12/18/2019 11:46:11</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/14/2020 11:36:23</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>01/07/2020 16:30:04</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

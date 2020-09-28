@@ -1,0 +1,118 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="adminWebMaster.master.cs" Inherits="TAAPP16_12_2019.TAADM.adminWebMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+ 
+  <head id="Head1" runat="server">
+   
+    <asp:ContentPlaceHolder ID="HeadContentPlaceHolder" runat="server"> <base href="./../"/>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+    </asp:ContentPlaceHolder>
+    <title>TA :: PANEL</title>
+    <!-- Icons-->    
+    <link href="css/simple-line-icons.css" rel="stylesheet"/>
+
+      <!-- Main styles for this application-->
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="vendors/pace-progress/css/pace.min.css" rel="stylesheet"/>
+    <link href="css/custom.css" rel="stylesheet" />
+  </head>
+  <body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
+    <%--<form id="form1" runat="server">--%>
+    <header class="app-header navbar">
+      <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img class="navbar-brand-full" src="img/coreui-pro-base-white.svg" width="89" height="25" alt="CoreUI Logo" style="display:none;"/>
+      </a>
+      <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+       
+      <ul class="nav navbar-nav ml-auto">
+         
+        <li class="nav-item dropdown">
+          <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <asp:Label ID="lblusername" runat="server" Text=""></asp:Label>
+          </a>
+        </li>
+      </ul>
+      <button class="navbar-toggler aside-menu-toggler d-md-down-none" type="button" data-toggle="aside-menu-lg-show">
+        <%--<span class="navbar-toggler-icon"></span>--%>
+      </button>
+    </header>
+    <div class="app-body">
+      <div class="sidebar">
+        <nav class="sidebar-nav">
+          <ul class="nav">
+            <li class="nav-item">
+              <asp:HyperLink CssClass="nav-link" ID="Hyperlink4" runat="server" NavigateUrl="adminDashboard.aspx"><i class="nav-icon icon-pie-chart"></i> Dashboard</asp:HyperLink>
+              <%--<a class="nav-link" href="index.html">
+                <i class="nav-icon icon-speedometer"></i> Dashboard
+                <span class="badge badge-primary">NEW</span>
+              </a>--%>
+            </li>
+            <li class="nav-item">
+                  <a class="nav-link" href="addModifyAttackDetails.aspx">
+                    <i class="nav-icon icon-pencil"></i>&nbsp;Attack Details</a>
+                </li>
+            <li class="nav-item nav-dropdown">
+              <a class="nav-link nav-dropdown-toggle" href="#">
+                <i class="nav-icon icon-puzzle"></i> Master</a>
+              <ul class="nav-dropdown-items">
+                <li class="nav-item">
+                  <a class="nav-link" href="AddModifyLocation.aspx">
+                    <i class="nav-icon icon-pencil"></i>&nbsp;Incident Type</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="AddModifyGroup.aspx">
+                    <i class="nav-icon icon-pencil"></i>&nbsp;Add Group</a>
+                </li>
+                                 
+                 
+              </ul>
+            </li>
+              <li class="nav-item">
+                <asp:HyperLink ID="HyperLink3" CssClass="nav-link" runat="server" NavigateUrl="Report.aspx"><i class="nav-icon icon-chart"></i> Report</asp:HyperLink>
+                
+            </li>
+            <%--<li class="nav-item">
+                <asp:HyperLink ID="HyperLink2" CssClass="nav-link" runat="server" NavigateUrl="changepassword.aspx"><i class="nav-icon icon-wrench"></i> Change Password</asp:HyperLink>
+                
+            </li>--%>
+            <li class="nav-item">
+                <asp:HyperLink ID="HyperLink1" CssClass="nav-link" runat="server" NavigateUrl="logout.aspx"><i class="nav-icon icon-lock"></i> Logout</asp:HyperLink>
+            </li>
+          </ul>
+        </nav>
+        <button class="sidebar-minimizer brand-minimizer" type="button"></button>
+      </div>
+      <main class="main">
+          <%--<asp:HiddenField ID="HiddenField3" runat="server" />--%>
+        <!-- Breadcrumb-->         
+
+        <asp:ContentPlaceHolder runat="server" ID="BodyContentPlaceHolder"></asp:ContentPlaceHolder>
+      </main>
+       
+    </div>
+    <footer class="app-footer">
+      <div class="col-lg-12">
+         <span>Designed and developed by NIC Jammu.</span>
+      </div>
+    </footer>
+    <!-- CoreUI and necessary plugins-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/pace.min.js"></script>
+    <script src="js/perfect-scrollbar.min.js"></script>
+    <script src="js/coreui.min.js"></script>
+   <%--</form>--%>
+  </body>
+</html>
