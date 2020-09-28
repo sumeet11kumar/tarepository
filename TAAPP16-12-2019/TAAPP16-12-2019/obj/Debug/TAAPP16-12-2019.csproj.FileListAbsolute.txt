@@ -72,3 +72,8 @@ E:\Projects\TerroristAttacksApp30-12-2019\TAAPP16-12-2019\TAAPP16-12-2019\bin\TA
 E:\Projects\TerroristAttacksApp30-12-2019\TAAPP16-12-2019\TAAPP16-12-2019\obj\Debug\TAAPP16-12-2019.dll
 E:\Projects\TerroristAttacksApp30-12-2019\TAAPP16-12-2019\TAAPP16-12-2019\obj\Debug\TAAPP16-12-2019.pdb
 E:\Projects\TerroristAttacksApp30-12-2019\TAAPP16-12-2019\TAAPP16-12-2019\obj\Debug\TAAPP16-12-2019.csprojResolveAssemblyReference.cache
+C:\Users\ELECTIONPC\Documents\GitHub\tarepository\TAAPP16-12-2019\TAAPP16-12-2019\bin\TAAPP16-12-2019.dll
+C:\Users\ELECTIONPC\Documents\GitHub\tarepository\TAAPP16-12-2019\TAAPP16-12-2019\bin\TAAPP16-12-2019.pdb
+C:\Users\ELECTIONPC\Documents\GitHub\tarepository\TAAPP16-12-2019\TAAPP16-12-2019\obj\Debug\TAAPP16-12-2019.csprojResolveAssemblyReference.cache
+C:\Users\ELECTIONPC\Documents\GitHub\tarepository\TAAPP16-12-2019\TAAPP16-12-2019\obj\Debug\TAAPP16-12-2019.dll
+C:\Users\ELECTIONPC\Documents\GitHub\tarepository\TAAPP16-12-2019\TAAPP16-12-2019\obj\Debug\TAAPP16-12-2019.pdb

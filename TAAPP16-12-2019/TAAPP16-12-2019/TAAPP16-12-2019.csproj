@@ -80,6 +80,7 @@
     <Content Include="TAADM\InsertSubDetails.aspx" />
     <Content Include="TAADM\js\angular.min.js" />
     <Content Include="TAADM\js\bootstrap.min.js" />
+    <Content Include="testingPageForGitHub.aspx" />
     <Content Include="WebForm1.aspx" />
     <None Include="Properties\PublishProfiles\trrattack.pubxml" />
     <Content Include="TAADM\js\coreui.bundle.min.js" />
@@ -195,6 +196,13 @@
     </Compile>
     <Compile Include="TAADM\UploadSubDetails.aspx.designer.cs">
       <DependentUpon>UploadSubDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testingPageForGitHub.aspx.cs">
+      <DependentUpon>testingPageForGitHub.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testingPageForGitHub.aspx.designer.cs">
+      <DependentUpon>testingPageForGitHub.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
